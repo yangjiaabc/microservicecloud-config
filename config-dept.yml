@@ -9,7 +9,7 @@ server:
   
 spring:
   profiles: dev
- 
+
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   type-aliases-package: com.yang.springcloud.entity
@@ -52,7 +52,6 @@ server:
   
 spring:
   profiles: test
-
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
