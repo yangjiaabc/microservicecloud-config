@@ -9,14 +9,11 @@ server:
   
 spring:
   profiles: dev
-  application:
-    name: pringcloud-config-dept
-
+ 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   type-aliases-package: com.yang.springcloud.entity
   mapper-locations: classpath:mybatis/mapper/*.xml
-
 
 spring:
   application:
@@ -55,8 +52,7 @@ server:
   
 spring:
   profiles: test
-  application:
-    name: pringcloud-config-dept
+
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
