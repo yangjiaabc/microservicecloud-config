@@ -7,8 +7,6 @@ spring:
 server:
   port: 8001
   
-spring:
-  profiles: dev
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
@@ -16,6 +14,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
 
 spring:
+  profiles: dev
   application:
     name: microservicecloud-dept-yj01
   datasource:
@@ -50,8 +49,6 @@ info:
 server:
   port: 8001
   
-spring:
-  profiles: test
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
@@ -60,6 +57,7 @@ mybatis:
 
 
 spring:
+  profiles: test
   application:
     name: microservicecloud-dept-yj01
   datasource:
